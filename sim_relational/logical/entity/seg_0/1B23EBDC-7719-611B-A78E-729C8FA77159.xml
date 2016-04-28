@@ -1,0 +1,293 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1B23EBDC-7719-611B-A78E-729C8FA77159" name="S16_Person">
+<createdBy>Jesus</createdBy>
+<createdTime>2016-03-29 02:55:47 UTC</createdTime>
+<ownerDesignName>sim_relational</ownerDesignName>
+<engineerTo>
+<item key="EA76BD18-5F0E-C71D-411C-97D23C4A9E6E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Per_id" id="1708BE64-678C-E121-A2A0-A2A1F45F53DD">
+<createdBy>Jesus</createdBy>
+<createdTime>2016-03-29 02:56:34 UTC</createdTime>
+<ownerDesignName>sim_relational</ownerDesignName>
+<engineerTo>
+<item key="EA76BD18-5F0E-C71D-411C-97D23C4A9E6E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="first_name" id="64EB5FFD-4044-5D37-52C5-65F11876CE55">
+<createdBy>Jesus</createdBy>
+<createdTime>2016-03-29 02:57:09 UTC</createdTime>
+<ownerDesignName>sim_relational</ownerDesignName>
+<engineerTo>
+<item key="EA76BD18-5F0E-C71D-411C-97D23C4A9E6E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last_name" id="2CEDC4D0-81DC-B6EB-48A8-A3046AEB998C">
+<createdBy>Jesus</createdBy>
+<createdTime>2016-03-29 02:57:22 UTC</createdTime>
+<ownerDesignName>sim_relational</ownerDesignName>
+<engineerTo>
+<item key="EA76BD18-5F0E-C71D-411C-97D23C4A9E6E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="home_address" id="0FE5BDA3-849A-EB67-7EDA-0870CE5CE0D9">
+<createdBy>Jesus</createdBy>
+<createdTime>2016-03-29 02:57:41 UTC</createdTime>
+<ownerDesignName>sim_relational</ownerDesignName>
+<engineerTo>
+<item key="EA76BD18-5F0E-C71D-411C-97D23C4A9E6E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zipcode" id="C5F18CAC-6702-B3B9-CF72-E3B953D61FF9">
+<createdBy>Jesus</createdBy>
+<createdTime>2016-03-29 02:57:56 UTC</createdTime>
+<ownerDesignName>sim_relational</ownerDesignName>
+<engineerTo>
+<item key="EA76BD18-5F0E-C71D-411C-97D23C4A9E6E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="home_phone" id="1FF0820B-8168-62F5-7256-A35EA67DE8D1">
+<createdBy>Jesus</createdBy>
+<createdTime>2016-03-29 02:58:14 UTC</createdTime>
+<ownerDesignName>sim_relational</ownerDesignName>
+<engineerTo>
+<item key="EA76BD18-5F0E-C71D-411C-97D23C4A9E6E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="us_citizen" id="DC2D04E9-E444-3AE3-9B6A-BBD2B5EFD821">
+<createdBy>Jesus</createdBy>
+<createdTime>2016-03-29 02:58:42 UTC</createdTime>
+<ownerDesignName>sim_relational</ownerDesignName>
+<engineerTo>
+<item key="EA76BD18-5F0E-C71D-411C-97D23C4A9E6E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Per_id1" id="2178E423-00D1-FA11-3B6A-135E7AB6A1D9">
+<createdBy>Jesus</createdBy>
+<createdTime>2016-03-29 03:22:26 UTC</createdTime>
+<generatorID>838F3AED-5E67-0A63-789E-25AF472AE78C</generatorID>
+<ownerDesignName>sim_relational</ownerDesignName>
+<engineerTo>
+<item key="EA76BD18-5F0E-C71D-411C-97D23C4A9E6E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>1708BE64-678C-E121-A2A0-A2A1F45F53DD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="is_Fired" id="A21953AA-CE79-4CD9-BD6B-EB27A517E9AE">
+<createdBy>Jesus</createdBy>
+<createdTime>2016-03-29 05:20:28 UTC</createdTime>
+<ownerDesignName>sim_relational</ownerDesignName>
+<engineerTo>
+<item key="EA76BD18-5F0E-C71D-411C-97D23C4A9E6E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Prev_emp_sal" id="263FE34B-DF07-3B0F-C33C-372EE67D5E29">
+<createdBy>Jesus</createdBy>
+<createdTime>2016-03-29 05:20:44 UTC</createdTime>
+<ownerDesignName>sim_relational</ownerDesignName>
+<engineerTo>
+<item key="EA76BD18-5F0E-C71D-411C-97D23C4A9E6E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="employee_id" id="23B528D2-A955-059E-B04B-7B21CC7FD0B3">
+<createdBy>Jesus</createdBy>
+<createdTime>2016-03-29 05:22:24 UTC</createdTime>
+<ownerDesignName>sim_relational</ownerDesignName>
+<engineerTo>
+<item key="EA76BD18-5F0E-C71D-411C-97D23C4A9E6E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="emp_sal" id="FA204DF5-E443-B8D9-55AB-1F89493E1022">
+<createdBy>Jesus</createdBy>
+<createdTime>2016-03-29 05:22:39 UTC</createdTime>
+<ownerDesignName>sim_relational</ownerDesignName>
+<engineerTo>
+<item key="EA76BD18-5F0E-C71D-411C-97D23C4A9E6E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="emp_sal_excption" id="A22C5DE4-8F3E-EF77-1350-E6702635D1D4">
+<createdBy>Jesus</createdBy>
+<createdTime>2016-03-29 05:22:48 UTC</createdTime>
+<ownerDesignName>sim_relational</ownerDesignName>
+<engineerTo>
+<item key="EA76BD18-5F0E-C71D-411C-97D23C4A9E6E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bonus" id="F70D88A4-1EF1-7D75-D3D3-C04683D137AE">
+<createdBy>Jesus</createdBy>
+<createdTime>2016-03-29 05:24:46 UTC</createdTime>
+<ownerDesignName>sim_relational</ownerDesignName>
+<engineerTo>
+<item key="EA76BD18-5F0E-C71D-411C-97D23C4A9E6E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dept_no" id="6609151C-90FD-2AE6-C43E-9F18B179C21D">
+<createdBy>Jesus</createdBy>
+<createdTime>2016-03-29 05:25:16 UTC</createdTime>
+<ownerDesignName>sim_relational</ownerDesignName>
+<engineerTo>
+<item key="EA76BD18-5F0E-C71D-411C-97D23C4A9E6E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="is_President" id="D4D40769-EAB0-8387-80C9-C980B0E0D153">
+<createdBy>Jesus</createdBy>
+<createdTime>2016-03-29 05:25:57 UTC</createdTime>
+<ownerDesignName>sim_relational</ownerDesignName>
+<engineerTo>
+<item key="EA76BD18-5F0E-C71D-411C-97D23C4A9E6E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="is_interim_manager" id="7815A589-73C3-332B-432C-AC1E471083FD">
+<createdBy>Jesus</createdBy>
+<createdTime>2016-03-29 05:26:20 UTC</createdTime>
+<ownerDesignName>sim_relational</ownerDesignName>
+<engineerTo>
+<item key="EA76BD18-5F0E-C71D-411C-97D23C4A9E6E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dept_no1" id="9988CDB9-749F-A1C3-F499-16E7EC922441">
+<createdBy>Jesus</createdBy>
+<createdTime>2016-03-29 05:28:44 UTC</createdTime>
+<generatorID>BE985FB1-E257-DAC7-9491-988119C2B606</generatorID>
+<ownerDesignName>sim_relational</ownerDesignName>
+<engineerTo>
+<item key="EA76BD18-5F0E-C71D-411C-97D23C4A9E6E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5A6B3F2B-C526-0AE7-B11D-B8782145E2D0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Per_id2" id="8BA030C0-DB95-2652-5157-FD26A4D0932A">
+<createdBy>Jesus</createdBy>
+<createdTime>2016-03-29 05:29:19 UTC</createdTime>
+<generatorID>A349243A-561F-2036-6B92-35553EBDEC33</generatorID>
+<ownerDesignName>sim_relational</ownerDesignName>
+<engineerTo>
+<item key="EA76BD18-5F0E-C71D-411C-97D23C4A9E6E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>1708BE64-678C-E121-A2A0-A2A1F45F53DD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7B9C7172-D226-DE54-7D9D-8436612B670B" name="S16_Person PK">
+<createdBy>Jesus</createdBy>
+<createdTime>2016-03-29 02:56:48 UTC</createdTime>
+<ownerDesignName>sim_relational</ownerDesignName>
+<engineerTo>
+<item key="EA76BD18-5F0E-C71D-411C-97D23C4A9E6E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1708BE64-678C-E121-A2A0-A2A1F45F53DD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

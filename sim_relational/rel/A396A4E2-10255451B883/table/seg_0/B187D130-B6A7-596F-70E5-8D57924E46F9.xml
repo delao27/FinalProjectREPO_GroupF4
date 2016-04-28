@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B187D130-B6A7-596F-70E5-8D57924E46F9" name="current_projects">
+<createdBy>Jesus</createdBy>
+<createdTime>2016-03-29 05:37:55 UTC</createdTime>
+<ownerDesignName>sim_relational</ownerDesignName>
+<ordsAlias>current_proj</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="S16_Person_Person_id" id="C1096529-07E8-BA60-3452-BE0A78461983">
+<createdBy>Jesus</createdBy>
+<createdTime>2016-03-29 05:37:55 UTC</createdTime>
+<ownerDesignName>sim_relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3E7AB696-3732-BBAD-94BE-F2B6F7F97A03" referredColumn="D468CF1B-8FA0-6145-ECC0-2C8B156B1CB6"/>
+</associations>
+</Column>
+<Column name="S16_Project_Project_id" id="464E7FB9-5681-79B9-EE68-91F2F99C71C3">
+<createdBy>Jesus</createdBy>
+<createdTime>2016-03-29 05:37:55 UTC</createdTime>
+<ownerDesignName>sim_relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="003E3989-C2EE-00AC-1A9D-3636594C04D1" referredColumn="98D66414-A8D1-994B-4E67-9E94F1131B75"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="309BD17A-4D85-5CBD-0E00-7BFF0CE471D0" name="current_proj_PK">
+<createdBy>Jesus</createdBy>
+<createdTime>2016-03-29 05:37:55 UTC</createdTime>
+<ownerDesignName>sim_relational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1096529-07E8-BA60-3452-BE0A78461983"/>
+<colUsage columnID="464E7FB9-5681-79B9-EE68-91F2F99C71C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7229603-B560-8B1B-ADC5-B75299657665" name="FK_ASS_6">
+<createdBy>Jesus</createdBy>
+<createdTime>2016-03-29 05:37:55 UTC</createdTime>
+<generatorID>768B14B3-D495-5A06-36EA-C9204B967BC7</generatorID>
+<ownerDesignName>sim_relational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1096529-07E8-BA60-3452-BE0A78461983"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE4ECF27-B6CD-23DB-61A9-82ED51CD78A0" name="FK_ASS_7">
+<createdBy>Jesus</createdBy>
+<createdTime>2016-03-29 05:37:55 UTC</createdTime>
+<generatorID>768B14B3-D495-5A06-36EA-C9204B967BC7</generatorID>
+<ownerDesignName>sim_relational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="464E7FB9-5681-79B9-EE68-91F2F99C71C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

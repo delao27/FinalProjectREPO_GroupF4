@@ -1,0 +1,192 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="68454222-D923-8640-870B-74A65E156DB1" name="S16_Project">
+<createdBy>jesus</createdBy>
+<createdTime>2016-03-30 00:19:52 UTC</createdTime>
+<generatorID>84A48128-1BFA-6481-EEFB-9FE201217BE0</generatorID>
+<ownerDesignName>sim_relational</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Proj_id" id="4C1CAE30-F955-AC8D-2086-6E07174ACDB2">
+<createdBy>jesus</createdBy>
+<createdTime>2016-03-30 00:19:52 UTC</createdTime>
+<generatorID>AFC90A56-C645-D673-01F1-95753708DCBF</generatorID>
+<ownerDesignName>sim_relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Project_title" id="8B503EB6-806A-40E0-8B48-29BF606E4D72">
+<createdBy>jesus</createdBy>
+<createdTime>2016-03-30 00:19:52 UTC</createdTime>
+<generatorID>AB7C7ABC-9BA1-481F-0F87-81342B24CCA6</generatorID>
+<ownerDesignName>sim_relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="S16_dept_dept_no" id="1929666B-9F93-8F63-66D0-4BC29A6250DF">
+<createdBy>jesus</createdBy>
+<createdTime>2016-03-30 00:19:52 UTC</createdTime>
+<generatorID>D4AC4770-4D57-4C94-0588-F4B510EDE8D1</generatorID>
+<ownerDesignName>sim_relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="06656B32-E34F-B0E8-91BC-853AA4ED2AA8" referredColumn="2C484C74-5E82-24C3-AE33-9FF5E221D708"/>
+</associations>
+</Column>
+<Column name="S16_Project_Proj_id" id="74AA5BEA-ADDA-C377-0BE3-40459D14B0F5">
+<createdBy>jesus</createdBy>
+<createdTime>2016-03-30 00:19:52 UTC</createdTime>
+<generatorID>F2AE97EF-B120-CAA0-8DB2-39F724EF8D2D</generatorID>
+<ownerDesignName>sim_relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1F54830B-3B2B-1103-0D90-AE524E1A05A9" referredColumn="4C1CAE30-F955-AC8D-2086-6E07174ACDB2"/>
+</associations>
+</Column>
+<Column name="S16_Person_Per_id" id="3542F0D3-3A0D-C36C-9C49-8713988678DA">
+<createdBy>jesus</createdBy>
+<createdTime>2016-03-30 00:19:52 UTC</createdTime>
+<generatorID>2A92924B-C36C-F0C3-7A56-FC4AA1D8BAEA</generatorID>
+<ownerDesignName>sim_relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E7B2DA2-AD58-D63C-12A9-7EA15B0397DC" referredColumn="492938D7-EBEA-AEAE-C7A4-CB46A4CA4574"/>
+</associations>
+</Column>
+<Column name="end_date_month" id="78E8F187-940A-07AE-F58E-954F77237006">
+<createdBy>jesus</createdBy>
+<createdTime>2016-03-30 00:19:52 UTC</createdTime>
+<generatorID>0E5ABCFE-7E31-8AD0-F5B7-BC829925E0EB</generatorID>
+<ownerDesignName>sim_relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end_date_day" id="C490DE93-88DB-31D6-07E7-70685A6769D3">
+<createdBy>jesus</createdBy>
+<createdTime>2016-03-30 00:19:52 UTC</createdTime>
+<generatorID>F1E397DA-381D-614C-44F6-F0B31C35D764</generatorID>
+<ownerDesignName>sim_relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end_date_year" id="F2A242E3-89E2-3454-9CFD-D7FE980F0248">
+<createdBy>jesus</createdBy>
+<createdTime>2016-03-30 00:19:52 UTC</createdTime>
+<generatorID>1C7F5967-289F-797D-01C8-011737E6DE5D</generatorID>
+<ownerDesignName>sim_relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end_person_hours" id="5B07D3DA-3244-4E2C-BA69-02AD2D6886E1">
+<createdBy>jesus</createdBy>
+<createdTime>2016-03-30 00:19:52 UTC</createdTime>
+<generatorID>4DF03017-638A-396B-82BE-85DF06BE4806</generatorID>
+<ownerDesignName>sim_relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="project_active" id="88276452-26BB-EDD2-2361-546829E06C14">
+<createdBy>jesus</createdBy>
+<createdTime>2016-03-30 00:19:52 UTC</createdTime>
+<generatorID>28C754AC-9BB1-883D-493A-3C8AF6F59AD8</generatorID>
+<ownerDesignName>sim_relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5F641664-E22D-ADA2-C93D-1A92520B8EB0" name="S16_Project_PK">
+<createdBy>jesus</createdBy>
+<createdTime>2016-03-30 00:19:52 UTC</createdTime>
+<generatorID>536965E2-C8BC-B8E0-1834-7B9F2D3B8971</generatorID>
+<ownerDesignName>sim_relational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C1CAE30-F955-AC8D-2086-6E07174ACDB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5298BB8A-7836-0D9E-00B0-2CDC86C2A11F" name="S16_Project_S16_Person_FK">
+<createdBy>jesus</createdBy>
+<createdTime>2016-03-30 00:19:52 UTC</createdTime>
+<generatorID>FEFA963A-BA2F-BB5A-E084-510BC4F708B9</generatorID>
+<ownerDesignName>sim_relational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3542F0D3-3A0D-C36C-9C49-8713988678DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A0BE2D8D-F6C0-58C7-07E7-37705DD7C03F" name="S16_Project_S16_dept_FK">
+<createdBy>jesus</createdBy>
+<createdTime>2016-03-30 00:19:52 UTC</createdTime>
+<generatorID>7F1C1671-58A1-BE7A-C799-22CD034EEB8D</generatorID>
+<ownerDesignName>sim_relational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1929666B-9F93-8F63-66D0-4BC29A6250DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A50F4A89-9DF3-2745-79E7-42C506328E03" name="S16_Project_S16_Project_FK">
+<createdBy>jesus</createdBy>
+<createdTime>2016-03-30 00:19:52 UTC</createdTime>
+<generatorID>D7920D1A-799A-CE1C-D074-CA42AF7E6BC1</generatorID>
+<ownerDesignName>sim_relational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74AA5BEA-ADDA-C377-0BE3-40459D14B0F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="09E66C3B-72CC-A7CB-A18F-B1668480A606" name="S16_curr_Proj">
+<createdBy>jesus</createdBy>
+<createdTime>2016-03-29 23:41:38 UTC</createdTime>
+<ownerDesignName>sim_relational</ownerDesignName>
+<engineerTo>
+<item key="EA76BD18-5F0E-C71D-411C-97D23C4A9E6E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Per_id" id="FCA1B277-CDD1-D379-404B-1F775A77CE76">
+<createdBy>jesus</createdBy>
+<createdTime>2016-03-29 23:42:23 UTC</createdTime>
+<generatorID>618306A9-894B-EABF-42F7-4547E7671110</generatorID>
+<ownerDesignName>sim_relational</ownerDesignName>
+<engineerTo>
+<item key="EA76BD18-5F0E-C71D-411C-97D23C4A9E6E" value="true"/>
+</engineerTo>
+<referedAttribute>1708BE64-678C-E121-A2A0-A2A1F45F53DD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Proj_id" id="EBC90695-9713-CD1A-274E-27F217149E58">
+<createdBy>jesus</createdBy>
+<createdTime>2016-03-29 23:42:48 UTC</createdTime>
+<generatorID>DBD227FC-181F-C807-6B93-3543AFFC67A3</generatorID>
+<ownerDesignName>sim_relational</ownerDesignName>
+<engineerTo>
+<item key="EA76BD18-5F0E-C71D-411C-97D23C4A9E6E" value="true"/>
+</engineerTo>
+<referedAttribute>AFC90A56-C645-D673-01F1-95753708DCBF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7CCA71E6-A766-9388-9861-577DF26453EF" name="S16_curr_Proj PK">
+<createdBy>jesus</createdBy>
+<createdTime>2016-03-30 00:17:29 UTC</createdTime>
+<ownerDesignName>sim_relational</ownerDesignName>
+<engineerTo>
+<item key="EA76BD18-5F0E-C71D-411C-97D23C4A9E6E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EBC90695-9713-CD1A-274E-27F217149E58</attributeRef>
+<attributeRef>FCA1B277-CDD1-D379-404B-1F775A77CE76</attributeRef>
+<attributeRef>FCA1B277-CDD1-D379-404B-1F775A77CE76</attributeRef>
+<attributeRef>EBC90695-9713-CD1A-274E-27F217149E58</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

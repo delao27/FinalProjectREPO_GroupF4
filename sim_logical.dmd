@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="sim_logical" id="DF668928-79BE-8776-DE68-107C9C16F1F1" version="3.5">
+<createdBy>Jesus</createdBy>
+<createdTime>2016-03-29 02:55:33 UTC</createdTime>
+<ownerDesignName>sim_logical</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>DF668928-79BE-8776-DE68-107C9C16F1F1</designId>
+</OSDM_Design>

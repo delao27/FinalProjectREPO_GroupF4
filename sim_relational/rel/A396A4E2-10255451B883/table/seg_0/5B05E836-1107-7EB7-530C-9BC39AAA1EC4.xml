@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5B05E836-1107-7EB7-530C-9BC39AAA1EC4" name="child_parent">
+<createdBy>Jesus</createdBy>
+<createdTime>2016-03-29 05:37:55 UTC</createdTime>
+<ownerDesignName>sim_relational</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="S16_Person_Person_id" id="0EB96E68-89EB-406B-750B-E4DB8C148DF9">
+<createdBy>Jesus</createdBy>
+<createdTime>2016-03-29 05:37:55 UTC</createdTime>
+<ownerDesignName>sim_relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2EE8539B-6559-E00D-D39B-AC4FFEFB5EBE" referredColumn="D468CF1B-8FA0-6145-ECC0-2C8B156B1CB6"/>
+</associations>
+</Column>
+<Column name="S16_Person_Person_id1" id="81CBFFD1-8A8A-94D2-EC7D-2480E83727D0">
+<createdBy>Jesus</createdBy>
+<createdTime>2016-03-29 05:37:55 UTC</createdTime>
+<ownerDesignName>sim_relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B8142F1B-109B-64F7-1FBC-904546C902AD" referredColumn="D468CF1B-8FA0-6145-ECC0-2C8B156B1CB6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="15E5BD99-A405-160A-9AC7-13571D88BE75" name="child_parent_PK">
+<createdBy>Jesus</createdBy>
+<createdTime>2016-03-29 05:37:55 UTC</createdTime>
+<ownerDesignName>sim_relational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EB96E68-89EB-406B-750B-E4DB8C148DF9"/>
+<colUsage columnID="81CBFFD1-8A8A-94D2-EC7D-2480E83727D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3BA6E98-7970-2F2A-AA01-5FFDB8F7F2B8" name="FK_ASS_2">
+<createdBy>Jesus</createdBy>
+<createdTime>2016-03-29 05:37:55 UTC</createdTime>
+<generatorID>60CB0EEE-A941-C118-9F98-87D52462854B</generatorID>
+<ownerDesignName>sim_relational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EB96E68-89EB-406B-750B-E4DB8C148DF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C41C9557-FF82-FCF2-3D7F-7B066129E28E" name="FK_ASS_3">
+<createdBy>Jesus</createdBy>
+<createdTime>2016-03-29 05:37:55 UTC</createdTime>
+<generatorID>60CB0EEE-A941-C118-9F98-87D52462854B</generatorID>
+<ownerDesignName>sim_relational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81CBFFD1-8A8A-94D2-EC7D-2480E83727D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
