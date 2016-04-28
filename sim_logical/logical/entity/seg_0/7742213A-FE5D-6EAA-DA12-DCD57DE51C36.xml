@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7742213A-FE5D-6EAA-DA12-DCD57DE51C36" name="S16_proj_emp">
+<createdBy>Jesus</createdBy>
+<createdTime>2016-03-29 03:03:08 UTC</createdTime>
+<ownerDesignName>sim_logical</ownerDesignName>
+<engineerTo>
+<item key="12BF2293-BF4C-4D92-6563-14A574BF9AAD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>B6B86D96-32C5-667B-7C74-8B8E98BC0F86</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+</Entity>

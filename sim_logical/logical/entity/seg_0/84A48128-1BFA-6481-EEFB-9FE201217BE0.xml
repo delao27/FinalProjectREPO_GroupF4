@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="84A48128-1BFA-6481-EEFB-9FE201217BE0" name="S16_Project">
+<createdBy>Jesus</createdBy>
+<createdTime>2016-03-29 03:12:27 UTC</createdTime>
+<ownerDesignName>sim_logical</ownerDesignName>
+<engineerTo>
+<item key="12BF2293-BF4C-4D92-6563-14A574BF9AAD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Project_id" id="AFC90A56-C645-D673-01F1-95753708DCBF">
+<createdBy>Jesus</createdBy>
+<createdTime>2016-03-29 03:12:46 UTC</createdTime>
+<ownerDesignName>sim_logical</ownerDesignName>
+<engineerTo>
+<item key="12BF2293-BF4C-4D92-6563-14A574BF9AAD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Project_title" id="AB7C7ABC-9BA1-481F-0F87-81342B24CCA6">
+<createdBy>Jesus</createdBy>
+<createdTime>2016-03-29 03:13:08 UTC</createdTime>
+<ownerDesignName>sim_logical</ownerDesignName>
+<engineerTo>
+<item key="12BF2293-BF4C-4D92-6563-14A574BF9AAD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="employee_id" id="7A8EDD28-B600-EFDC-E8EC-380ABE646D5A">
+<createdBy>Jesus</createdBy>
+<createdTime>2016-03-29 04:31:33 UTC</createdTime>
+<generatorID>FEFA963A-BA2F-BB5A-E084-510BC4F708B9</generatorID>
+<ownerDesignName>sim_logical</ownerDesignName>
+<engineerTo>
+<item key="12BF2293-BF4C-4D92-6563-14A574BF9AAD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>2CD2CA7A-B1E3-FDA5-9F8A-20E1A790E00A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dept_no" id="D4AC4770-4D57-4C94-0588-F4B510EDE8D1">
+<createdBy>Jesus</createdBy>
+<createdTime>2016-03-29 04:50:48 UTC</createdTime>
+<generatorID>7F1C1671-58A1-BE7A-C799-22CD034EEB8D</generatorID>
+<ownerDesignName>sim_logical</ownerDesignName>
+<engineerTo>
+<item key="12BF2293-BF4C-4D92-6563-14A574BF9AAD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5A6B3F2B-C526-0AE7-B11D-B8782145E2D0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Project_id1" id="F2AE97EF-B120-CAA0-8DB2-39F724EF8D2D">
+<createdBy>Jesus</createdBy>
+<createdTime>2016-03-29 04:52:29 UTC</createdTime>
+<generatorID>D7920D1A-799A-CE1C-D074-CA42AF7E6BC1</generatorID>
+<ownerDesignName>sim_logical</ownerDesignName>
+<engineerTo>
+<item key="12BF2293-BF4C-4D92-6563-14A574BF9AAD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>AFC90A56-C645-D673-01F1-95753708DCBF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="536965E2-C8BC-B8E0-1834-7B9F2D3B8971" name="S16_Project PK">
+<createdBy>Jesus</createdBy>
+<createdTime>2016-03-29 03:12:57 UTC</createdTime>
+<ownerDesignName>sim_logical</ownerDesignName>
+<engineerTo>
+<item key="12BF2293-BF4C-4D92-6563-14A574BF9AAD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AFC90A56-C645-D673-01F1-95753708DCBF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
